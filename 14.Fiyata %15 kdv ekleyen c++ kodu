@@ -1,0 +1,16 @@
+#include <iostream>
+#include<string>
+#include<cmath>
+
+using namespace std;
+
+int main() {
+	float fiyat, kdvFiyat;
+
+	cout << "fiyati giriniz:";
+	cin >> fiyat;
+
+	kdvFiyat = fiyat + (fiyat * 15 / 100);
+	cout << "kdv'li fiyat:" << kdvFiyat << endl;
+
+}
