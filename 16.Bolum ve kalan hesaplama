@@ -1,0 +1,22 @@
+#include <iostream>
+#include<string>
+#include<cmath>
+
+using namespace std;
+
+int main() {
+    int bolunen, bolen,bolum, kalan;
+
+    cout << "bolunen giriniz:";
+    cin >> bolunen;
+
+    cout << "boleni giriniz:";
+    cin >> bolen;
+
+    bolum = bolunen / bolen;
+    kalan = bolunen % bolen;
+
+    cout << "bolum:" << bolum << endl;
+
+    cout << "kalan:" << kalan << endl;
+}
