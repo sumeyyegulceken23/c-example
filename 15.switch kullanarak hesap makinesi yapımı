@@ -1,0 +1,43 @@
+#include <iostream>
+#include<string>
+#include<cmath>
+using namespace std;
+int main() {
+    double sayi1, sayi2, sonuc;
+	char islem;
+
+	cout << "1.sayiyi giriniz:";
+	cin >> sayi1;
+	cout << "islemi girniz";
+	cin >> islem;
+	cout << "2.sayiyi giriniz:";
+	cin >> sayi2;
+
+		switch (islem)
+	{
+	case '+':
+		sonuc = sayi1 + sayi2;
+		cout << "sayilarin toplamı:" << sonuc << endl;
+		break;
+
+	case'-':
+		sonuc = sayi1 - sayi2;
+		cout << "sayilarin farki:" << sonuc << endl;
+		break;
+
+	case'*':
+		sonuc = sayi1 * sayi2;
+		cout << "sayilarin carpımı:" << sonuc << endl;
+		break;
+
+	case'/':
+		sonuc = sayi1 + sayi2;
+		cout << "sayiların bolumu:" << sonuc << endl;
+		break;
+
+
+	default:
+		cout << "yanlis secim";
+		break;
+	}
+}
