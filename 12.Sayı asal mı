@@ -1,0 +1,25 @@
+#include <iostream>
+#include<string>
+#include<cmath>
+
+using namespace std;
+
+int main() {
+	int sayi;
+	cout << "bir sayi giriniz:";
+	cin >> sayi;
+    int i = 2;
+	while (i<sayi)
+	{
+		if (sayi%i==0)
+		{
+			cout << "sayi asal degildir.";
+			break;
+		}
+		i++;
+		if (sayi==i)
+		{
+			cout << "sayi asaldir";
+		}
+    }
+}
