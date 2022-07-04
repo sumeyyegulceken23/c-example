@@ -1,0 +1,19 @@
+#include <iostream>
+#include<string>
+#include<cmath>
+
+using namespace std;
+int main(){
+	string isim[4];
+
+	isim[0] = "Ali";
+	isim[1] = "Veli";
+	isim[2] = "Ayse";
+	isim[3] = "Merve";
+
+	for (int i = 0; i <4; i++)
+	{
+		cout << isim[i] << endl;
+	}
+	return 0;
+}
