@@ -1,0 +1,19 @@
+#include <iostream>
+#include<string>
+#include<cmath>
+
+using namespace std;
+
+int main() {
+	bool a = (8  >9);
+	bool b = (10 > 5);
+	bool c = (14 >= 19);
+	bool d = (1 == 1);
+
+	cout << "a=" << a << endl;
+	cout << "b=" << b << endl;
+	cout << "c=" << c << endl;
+	cout << "d=" << d << endl;
+
+
+}
