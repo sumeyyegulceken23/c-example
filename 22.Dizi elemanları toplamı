@@ -1,0 +1,17 @@
+#include <iostream>
+#include<string>
+#include<cmath>
+
+using namespace std;
+int main(){
+	int toplam = 0;
+	int a[5] = { 12,18,46,34,25 };
+
+	for (int i = 0; i <5; i++)
+	{
+		toplam = toplam + a[i];
+
+	}
+	cout << "dizideki sayilarin toplamı:" << toplam << endl;
+}
+	
