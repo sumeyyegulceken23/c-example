@@ -1,0 +1,22 @@
+#include <iostream>
+#include<string>
+#include<cmath>
+
+using namespace std;
+
+int main() {int x, y, cevre, alan;
+
+	cout << "kisa kenari giriniz:";
+	cin >> x;
+
+	cout << "uzun kenari giriniz:";
+	cin >> y;
+
+	cevre = 2 * (x + y);
+	alan = x * y;
+
+	cout << "cevre:" << cevre << endl;
+	cout << "alan:" << alan << endl;
+
+
+}
