@@ -1,0 +1,23 @@
+#include <iostream>
+#include<string>
+#include<cmath>
+using namespace std;
+int main()
+{
+	int taban, kuvvet, sonuc = 1;
+
+	cout << "tabani giriniz:";
+	cin >> taban;
+
+	cout << "ustu giriniz:";
+	cin >> kuvvet;
+
+	for (int i = 1; i <=kuvvet; i++)
+	{
+		sonuc *= taban;
+	}
+
+	cout << "sonuc:" << sonuc;
+	
+	
+}
