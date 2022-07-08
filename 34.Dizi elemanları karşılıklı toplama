@@ -1,0 +1,24 @@
+#include <iostream>
+#include<string>
+#include<math.h>
+#define length(a) (sizeof(a)/sizeof(*a))
+using namespace std;
+int main()
+{
+	int A[] = { 10, 20, 30, 40, 50, 60, 70, 80, 90 };
+	int B[] = { 15, 25, 35, 45, 55, 65, 75, 85, 95 };
+
+	int C[length(A)];
+
+	for (int i = 0; i < length(A); i++)
+	{
+		C[i] = A[i] + B[i];
+
+	}
+      cout << "\tA+ B= C\n";
+	  for (int i = 0; i < length(A); i++)
+	  {
+		  cout << "\t" << A[i] << "+"<<B[i] << "=" << C[i] << endl;
+	  }
+}
+
