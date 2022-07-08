@@ -1,0 +1,36 @@
+#include <iostream>
+#include<string>
+#include<cmath>
+using namespace std;
+int main(){
+	double a,b,c;
+
+	cout << "birinci katsayi giriniz:";
+	cin >> a;
+	
+	cout << "ikinci katsayi giriniz:";
+	cin >> b;
+
+	cout << "ucuncu katsayi giriniz:";
+	cin >> c;
+
+	double d = (b * b) - 4 * a * c;
+	if (d>0)
+	{
+		double x1 = (-b + sqrt(d)) / 2 * a;
+		double x2 = (-b - sqrt(d)) / 2 * a;
+		cout << "birinci kok:" << (x1);
+		cout << "ikinci kok:" << (x2);
+	}
+	else if (d==0)
+	{
+		double x1= (-b + sqrt(d)) / 2 * a;
+		cout << "Birinci kök:" << x1 << endl;
+
+	}
+	else if (d<0)
+	{
+		cout << "reel kok yoktur.";
+	}
+		return 0;
+}
