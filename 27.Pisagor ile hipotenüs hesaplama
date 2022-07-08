@@ -1,0 +1,20 @@
+#include <iostream>
+#include<string>
+#include<cmath>
+#define PI 3.
+
+using namespace std;
+int main(){
+	int k1, k2;
+
+	cout << "birinci dik kenar uzunlugunu giriniz:";
+	cin >> k1;
+
+	cout << "ikinci dik kenar uzunlugunu giriniz:";
+	cin >> k2;
+
+	double hipotenus = sqrt(k1 * k1 + k2 * k2);
+
+	cout << "hipotenus=" << hipotenus;
+	return 0;
+}
