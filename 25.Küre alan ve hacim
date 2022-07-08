@@ -1,0 +1,24 @@
+#include <iostream>
+#include<string>
+#include<cmath>
+#define PI 3.
+
+using namespace std;
+int main(){
+	double r;
+
+	cout << "kurenin yaricapini giriniz:";
+	cin >> r;
+
+
+	double alan = 4 * PI * r * r;
+	double hacim = (4 / 3) * PI * r * r * r;
+
+	cout << "alan:" << alan << endl << "hacim:" << hacim;
+
+
+
+
+	return 0;
+}
+	
