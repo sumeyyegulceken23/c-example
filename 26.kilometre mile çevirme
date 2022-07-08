@@ -1,0 +1,18 @@
+#include <iostream>
+#include<string>
+#include<cmath>
+#define PI 3.
+
+using namespace std;
+int main(){
+	double x;
+
+	cout << "kilometre cinsinden uzunluğu giriniz:";
+	cin >> x;
+
+	double mil = (0.621) * x;
+	cout << "mil:" << mil;
+
+
+	return 0;
+}
