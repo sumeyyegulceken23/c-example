@@ -1,0 +1,18 @@
+#include <iostream>
+#include<string>
+#include<cmath>
+using namespace std;
+int main()
+{
+	int sayi;
+
+	cout << "tersten yazdirmak istediginz sayiyi giriniz:";
+	cin >> sayi;
+
+	while (sayi!=0)
+	{
+		cout << sayi % 10;
+		sayi /= 10;
+	}
+	
+}
