@@ -1,0 +1,26 @@
+#include <iostream>
+#include<string>
+#include<cmath>
+using namespace std;
+int main(){
+	double ort = 1;
+	int n = 0;
+	int sayi = 0;
+
+	do
+	{
+		cout << "bir sayi giriniz cıkmak icin 0 basiniz.";
+		cin >> sayi;
+
+		if (sayi!=0)
+		{
+			ort *= sayi;
+			n++;
+
+		}
+	} while (sayi!=0);
+	ort = pow(ort, 1 / (double)n);
+	cout << "geometrik ortalama=" << ort;
+
+		return 0;
+}
